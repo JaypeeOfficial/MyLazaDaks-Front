@@ -1,0 +1,46 @@
+.thought {
+    display:flex;
+    background-color:pink;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:100px;
+    min-height:40px;
+    margin:20px;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    margin-left: 180px;
+  }
+  .thought:before,
+  .thought:after {
+    content:"";
+    background-color:pink;
+    border-radius:50%;
+    display:block;
+    position:absolute;
+    z-index:-1;
+  }
+  .thought:before {
+    width:44px;
+    height:44px;
+    top:-12px;
+    left:28px;
+    box-shadow:-50px 30px 0 -12px pink;
+  }
+  .thought:after {
+    bottom:-10px;
+    right:26px;
+    width:30px;
+    height:30px;
+    box-shadow:40px -34px 0 0 pink,
+               -28px -6px 0 -2px pink,
+               -24px 17px 0 -6px pink,
+               -5px 25px 0 -10px pink;
+    
+  }
+
+  .thought p {
+    margin : 0;
+  }

@@ -1,0 +1,51 @@
+.thoughtLeft {
+    display:flex;
+    background-color:#FC46AA;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:100px;
+    min-height:40px;
+    margin:20px;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    margin-right: 180px;
+  }
+  .thoughtLeft:before,
+  .thoughtLeft:after {
+    content:"";
+    background-color:#FC46AA;
+    border-radius:50%;
+    display:block;
+    position:absolute;
+    z-index:-1;
+  }
+  .thoughtLeft:before {
+    width:44px;
+    height:44px;
+    top:-12px;
+    left:28px;
+    box-shadow:-50px 30px 0 -12px #FC46AA;
+  }
+  .thoughtLeft:after {
+    bottom:-10px;
+    right:26px;
+    width:30px;
+    height:30px;
+    box-shadow:40px -34px 0 0 #FC46AA,
+               -28px -6px 0 -2px #FC46AA,
+               -65px 17px 0 -6px #FC46AA,
+               -85px 25px 0 -10px #FC46AA;
+    
+  }
+
+  .thought p {
+    margin : 0;
+  }
+
+  
+  p { 
+    margin : 0;
+  }
